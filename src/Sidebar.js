@@ -25,6 +25,10 @@ function Sidebar() {
           </div>
         </div>
 
+
+        <div className='sidebar_bottom'>
+            <p>Recent</p>
+        </div>
     </div>
   )
 }

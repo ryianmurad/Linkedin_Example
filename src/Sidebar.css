@@ -6,6 +6,7 @@ h2, h4, h1, p{
 .sidebar {
     position: sticky;
     top: 80px;
+    /* width: 0.2; */
     flex: 0.2;
     border-radius: 10px;
     text-align: center;
@@ -17,15 +18,25 @@ h2, h4, h1, p{
 }
 
 .sidebar_top {
+    border: 2px solid lightgray;
+    background-color: white;
     display: flex;
+    border-bottom: 0;
     flex-direction: column;
     align-items: center;
-    border: 1px solid lightgray;
-    border-bottom: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background-color: white;
     padding-bottom: 10px;
+
+}
+
+.sidebar_top > h2 {
+    font-size: 18px;
+}
+
+.sidebar_top > h4 {
+    font-size: 12px;
+    color: grey;
 }
 
 .sidebar_top>img {
@@ -37,10 +48,20 @@ h2, h4, h1, p{
     object-fit: cover;
 }
 
+.sidebar_stats {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid lightgray;
+    /* border-top: 0; */
+}
+
 .sidebar_stat {
+    justify-content: space-between;
     margin-top: 10px;
     display: flex;
-    justify-content: space-between;
 }
 
 .sidebar_stat > p {
@@ -53,3 +74,13 @@ h2, h4, h1, p{
     font-weight: bold !important;
     color: blue !important;
 }
+
+.sidebar_bottom {
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+}
+
