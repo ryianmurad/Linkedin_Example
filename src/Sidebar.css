@@ -37,6 +37,19 @@ h2, h4, h1, p{
     object-fit: cover;
 }
 
-.sidebar_stats {
-    
+.sidebar_stat {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar_stat > p {
+    color: gray;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sidebar_statNumber {
+    font-weight: bold !important;
+    color: blue !important;
 }
