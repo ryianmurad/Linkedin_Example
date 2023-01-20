@@ -1,15 +1,13 @@
 import { Avatar } from '@mui/material';
 import React from 'react';
-import "./Sidebar.css";
-import SidebarImg from "./Sidebar.jpg";
-import Myname from './Myname.jpg'
+import "../css/Sidebar.css";
 
 function Sidebar() {
   return (
     <div className='sidebar'>
         <div className="sidebar_top">
-          <img src={SidebarImg} alt="" />
-          <Avatar className='sidebar_avatar' src={Myname}/>
+          <img src="./images/Sidebar.jpg" alt="" />
+          <Avatar className='sidebar_avatar' src="./images/Myname.jpg"/>
           <h2>My Name</h2>
           <h4>my_name@example.com</h4>
         </div>

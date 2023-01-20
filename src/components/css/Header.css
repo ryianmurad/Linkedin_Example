@@ -15,7 +15,7 @@
     display: flex;
 }
 
-.header_left>img {
+.header_left> a >img {
     width: 40px;
     height: 40px;
     object-fit: contain;

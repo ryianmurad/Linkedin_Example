@@ -1,19 +1,18 @@
 // import logo from './logo.svg';
-import './App.css';
-import Header from './Header';
+// import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import React from 'react';
-import Sidebar from './Sidebar';
-import Feed from './Feed';
+import Login from './components/js/Login';
+import Beranda from './components/js/Beranda';
 
 function App() {
   return (
-    <div className="app">
-      <Header />
-      <div className="app_body">
-        <Sidebar />
-        <Feed />
-      </div>
-    </div>
+      <Router>
+        <Routes >
+          <Route exact path="/" element={<Login/>}/>
+          <Route path="/home" element={<Beranda/>}/>
+        </Routes>
+      </Router>
   );
 }
 

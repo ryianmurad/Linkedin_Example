@@ -1,0 +1,41 @@
+.login_container {
+    padding: 0px;
+}
+
+.login_container > a{
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 12px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-right: 12px;
+}
+
+.login_container > a:hover{
+    background-color: rgba(0, 0, 0, 0.08);
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.login_nav {
+    width: 1128px;
+    margin: auto;
+    padding: 12px 0 16px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
+
+.login_nav > a {
+    max-width: 768px;
+    padding: 0 5px;
+    height: 34px;
+    width: 135px;
+}
+
+.login_nav > a > img{
+    max-width: 768px;
+    /* padding: ; */
+}
+
